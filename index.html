@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Trattoria Bella Italia - Autentica cucina italiana nel cuore di Roma. Prenota ora!"
+    />
+    <title>Trattoria Bella Italia | Ristorante Autentico</title>
+    <link rel="shortcut icon" href="img/free-icon-restaurant-building-6768209.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aos  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+      <p>
+        Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito.
+        <a href="privacy.html">Informativa sulla privacy</a>
+      </p>
+      <button id="accept-cookies">Accetta</button>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Trattoria Bella Italia</h1>
+        </div>
+        <nav>
+          <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#chi-siamo">Chi Siamo</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#galleria">Galleria</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div
+    id="carouselExampleFade"
+    class="carousel slide carousel-fade"
+    data-bs-ride="carousel"
+    data-bs-interval="3000"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="hero-content carousel-caption d-md-block center top-40" data-aos="flip-right" >
+              <h2 class="fade-in">"Una experiencia gastronómica más allá del límite del sabor"</h2>
+              <p class="fade-in">
+                Mustafo Parlak amaba y mantenía los sarguzashtini vacíos en 1954.
+              </p>
+              <a href="#contatti" class="btn fade-in">Prenota un Tavolo</a>
+            </div>
+          <img
+            src="https://media.architecturaldigest.com/photos/66c8923688f5dc5cc31e1e35/16:9/w_2560%2Cc_limit/CH_BAD_ROMAN_NYC_ROUND_1_020323952A.jpg"
+            class="d-block w-100 images_header"
+            alt="..."
+          />
+          <div class="hero-content carousel-caption d-md-block center top-40">
+            <h2 class="fade-in">"Una experiencia gastronómica más allá del límite del sabor"</h2>
+            <p class="fade-in">
+              Mustafo Parlak amaba y mantenía los sarguzashtini vacíos en 1954.
+            </p>
+            <a href="#contatti" class="btn fade-in">Prenota un Tavolo</a>
+          </div>
+          
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://t4.ftcdn.net/jpg/08/97/91/75/360_F_897917529_rB6HUrzIAXp7RnMm8UAMpMbGuXrZvw5H.jpg"
+            class="d-block w-100 images_header"
+            alt="..."
+          />
+          <div class="hero-content carousel-caption d-md-block center top-40">
+            <h2 class="fade-in">"Una experiencia gastronómica más allá del límite del sabor"</h2>
+            <p class="fade-in">
+              Mustafo Parlak amaba y mantenía los sarguzashtini vacíos en 1954.
+            </p>
+            <a href="#contatti" class="btn fade-in">Prenota un Tavolo</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <div class="hero-content carousel-caption d-md-block center top-40">
+                <h2 class="fade-in">"Una experiencia gastronómica más allá del límite del sabor"</h2>
+                <p class="fade-in">
+                  Mustafo Parlak amaba y mantenía los sarguzashtini vacíos en 1954.
+                </p>
+                <a href="#contatti" class="btn fade-in">Prenota un Tavolo</a>
+              </div>
+          <img
+            src="https://images.unsplash.com/photo-1624720555365-469d16a3022e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="d-block w-100 images_header"
+            alt="..."
+            <div class="hero-content carousel-caption d-md-block center top-40">
+                <h2 class="fade-in">"Una experiencia gastronómica más allá del límite del sabor"</h2>
+                <p class="fade-in">
+                  Mustafo Parlak amaba y mantenía los sarguzashtini vacíos en 1954.
+                </p>
+                <a href="#contatti" class="btn fade-in">Prenota un Tavolo</a>
+              </div>
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Hero Section -->
+    <!-- <section id="home" class="hero">
+      <div class="hero-content">
+        <h2 class="fade-in">Sapori Autentici Italiani</h2>
+        <p class="fade-in">
+          Dal 1985, portiamo la tradizione culinaria italiana sulla tua tavola
+        </p>
+        <a href="#contatti" class="btn fade-in">Prenota un Tavolo</a>
+      </div>
+    </section> -->
+
+    <!-- Chi Siamo Section -->
+    <section id="chi-siamo" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>Chi Siamo</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image"  data-aos="fade-left">
+                <img
+                  src="https://images.unsplash.com/photo-1624720555375-191c946a03b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Il nostro ristorante"
+                  class="fade-in-image"
+                />
+              </div>
+          <div class="about-text"  data-aos="fade-right">
+            <p>
+              Trattoria Bella Italia è un ristorante a conduzione familiare
+              situato nel cuore di Roma. Da oltre 35 anni, serviamo piatti
+              tradizionali italiani preparati con ingredienti freschi e locali.
+            </p>
+            <p>
+              Il nostro chef, Antonio Rossi, ha imparato l'arte della cucina
+              italiana dalla nonna e continua a onorare le ricette tramandate di
+              generazione in generazione, aggiungendo un tocco moderno che rende
+              ogni piatto speciale.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Il Nostro Menu</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="menu-categories">
+          <button class="menu-tab active" data-category="antipasti">
+            Antipasti
+          </button>
+          <button class="menu-tab" data-category="primi">Primi</button>
+          <button class="menu-tab" data-category="secondi">Secondi</button>
+          <button class="menu-tab" data-category="dolci">Dolci</button>
+        </div>
+        <div class="menu-items">
+          <!-- Antipasti -->
+          <div class="menu-category active" id="antipasti">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Bruschetta al Pomodoro</h3>
+                <p>
+                  Pane tostato con pomodori freschi, aglio, basilico e olio
+                  d'oliva
+                </p>
+              </div>
+              <div class="menu-item-price">€8</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Caprese</h3>
+                <p>Mozzarella di bufala, pomodori, basilico e olio d'oliva</p>
+              </div>
+              <div class="menu-item-price">€10</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Antipasto Misto</h3>
+                <p>
+                  Selezione di salumi e formaggi italiani con olive e crostini
+                </p>
+              </div>
+              <div class="menu-item-price">€14</div>
+            </div>
+          </div>
+
+          <!-- Primi -->
+          <div class="menu-category" id="primi">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Spaghetti alla Carbonara</h3>
+                <p>
+                  Spaghetti con uova, guanciale, pecorino romano e pepe nero
+                </p>
+              </div>
+              <div class="menu-item-price">€12</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Risotto ai Funghi Porcini</h3>
+                <p>Risotto cremoso con funghi porcini e parmigiano</p>
+              </div>
+              <div class="menu-item-price">€14</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Lasagna alla Bolognese</h3>
+                <p>
+                  Strati di pasta con ragù di carne, besciamella e parmigiano
+                </p>
+              </div>
+              <div class="menu-item-price">€13</div>
+            </div>
+          </div>
+
+          <!-- Secondi -->
+          <div class="menu-category" id="secondi">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Saltimbocca alla Romana</h3>
+                <p>Fettine di vitello con prosciutto e salvia</p>
+              </div>
+              <div class="menu-item-price">€18</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Branzino al Forno</h3>
+                <p>Branzino intero al forno con erbe aromatiche e limone</p>
+              </div>
+              <div class="menu-item-price">€22</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Melanzane alla Parmigiana</h3>
+                <p>
+                  Strati di melanzane con salsa di pomodoro, mozzarella e
+                  parmigiano
+                </p>
+              </div>
+              <div class="menu-item-price">€15</div>
+            </div>
+          </div>
+
+          <!-- Dolci -->
+          <div class="menu-category" id="dolci">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Tiramisu</h3>
+                <p>Dolce classico con mascarpone, caffè e cacao</p>
+              </div>
+              <div class="menu-item-price">€7</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Panna Cotta</h3>
+                <p>Crema cotta con salsa di frutti di bosco</p>
+              </div>
+              <div class="menu-item-price">€6</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Cannoli Siciliani</h3>
+                <p>Cannoli ripieni di crema di ricotta e gocce di cioccolato</p>
+              </div>
+              <div class="menu-item-price">€8</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+        <div class=" mt-4">
+            <div class="row g-2 custom-grid">
+                <div class="col-md-6 position-relative"  data-aos="fade-right">
+                    <img src="https://media.istockphoto.com/id/2166626290/photo/typical-and-cozy-street-in-the-center-of-rome.webp?a=1&b=1&s=612x612&w=0&k=20&c=yZ7H580F72ohFQAtRUMQz5xjX45EJqd6qFxMfr134wk=" alt="Taom">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 overlay">
+                        <h3>ILLUMINATO</h3>
+                        <h2>IL DIARIO DI TAM</h2>
+                    </div>
+                </div>
+                <div class="col-md-3 position-relative">
+                    <img src="https://plus.unsplash.com/premium_photo-1733266804450-d80af5e9c753?q=80&w=1939&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gril taom">
+                </div>
+                <div class="col-md-3 position-relative bg-dark d-flex align-items-center justify-content-center "fade-up-right"">
+                    <div class="text-white text-center">
+                        <h3>IL TUO POSTO È PRONTO</h3>
+                        <button class="btn btn-light">CONTATTACI</button>
+                    </div>
+                </div>
+                <div class="col-md-3 position-relative bg-dark d-flex align-items-center justify-content-center">
+                    <div class="text-white text-center">
+                        <h3>RISTORANTE LUMINOSO</h3>
+                        <button class="btn btn-light">MENÙ DETTAGLIATO</button>
+                    </div>
+                </div>
+                <div class="col-md-3 position-relative">
+                    <img src="https://images.unsplash.com/photo-1483918793747-5adbf82956c4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Restoran ichki qismi">
+                </div>
+                <div class="col-md-6 position-relative">
+                    <img src="https://images.unsplash.com/photo-1449198063792-7d754d6f3c80?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Turk taomi">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 overlay">
+                        <h3>"DELIZIE LOCALI CON STORIE ALL'INTERNO."</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section -->
+    <section id="galleria" class="gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2>Galleria</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Piatto di pasta"
+              class="fade-in-image"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1515860734122-e0d771b36d3e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Interno del ristorante"
+              class="fade-in-image"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Preparazione del cibo"
+              class="fade-in-image"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1674837818249-d9f338c5fc53?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Dessert speciale"
+              class="fade-in-image"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Tavolo all'aperto"
+              class="fade-in-image"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Vino e formaggio"
+              class="fade-in-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contatti" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contatti</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <h3>Indirizzo</h3>
+              <p>Via del Corso 123, 00186 Roma, Italia</p>
+            </div>
+            <div class="contact-item">
+              <h3>Orari</h3>
+              <p>Lunedì - Domenica: 12:00 - 23:00</p>
+            </div>
+            <div class="contact-item">
+              <h3>Telefono</h3>
+              <p>+39 06 1234567</p>
+            </div>
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>info@trattoriabellaitalia.it</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Prenota un Tavolo</h3>
+            <form id="reservation-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nome e Cognome"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Telefono"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input type="date" id="date" name="date" required />
+              </div>
+              <div class="form-group">
+                <input type="time" id="time" name="time" required />
+              </div>
+              <div class="form-group">
+                <select id="guests" name="guests" required>
+                  <option value="" disabled selected>Numero di Persone</option>
+                  <option value="1">1 Persona</option>
+                  <option value="2">2 Persone</option>
+                  <option value="3">3 Persone</option>
+                  <option value="4">4 Persone</option>
+                  <option value="5">5 Persone</option>
+                  <option value="6">6+ Persone</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Note speciali"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Invia Richiesta</button>
+            </form>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11880.492291371422!2d12.4829321!3d41.9027835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1616679354934!5m2!1sit!2sit"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Trattoria Bella Italia</h3>
+            <p>Sapori autentici dal 1985</p>
+          </div>
+          <div class="footer-links">
+            <h4>Link Utili</h4>
+            <ul>
+              <li><a href="privacy.html">Informativa sulla Privacy</a></li>
+              <li><a href="terms.html">Termini e Condizioni</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Seguici</h4>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"
+                ><i class="social-icon facebook"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="social-icon instagram"></i
+              ></a>
+              <a href="#" aria-label="Telegram"
+                ><i class="social-icon tripadvisor"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>This website Created by  <a href="https://kwork.ru/user/azamqulov01020">@Musurmon_dev</a>&copy; 2025 Trattoria Bella Italia. Tutti i diritti riservati.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- aos  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
